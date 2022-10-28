@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* as cores e tamanhos assim como as imagens tambem vao ser mudadas*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.geral {
+    max-width: 100%;
+    min-width: 390px;
+    /*nao vou responsivar agora, vamos ver o design primeiro depois a estrutura*/
+}
+
+div.menu {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
+
+div.conteudo {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
