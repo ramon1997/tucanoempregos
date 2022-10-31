@@ -1,31 +1,120 @@
 @charset "UTF-8";
-/* as cores e tamanhos assim como as imagens tambem vao ser mudadas*/
 
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.geral {
     max-width: 100%;
     min-width: 390px;
-    /*nao vou responsivar agora, vamos ver o design primeiro depois a estrutura*/
 }
 
 div.menu {
     width: 100%;
     height: 70px;
-    background-color: blue;
+    background-color: rgb(135, 135, 185);
+
 }
 
 div.conteudo {
     width: 100%;
     height: 500px;
-    background-color: aqua;
+    max-width: 99%;
+
 }
 
-footer {
-    width: 100%;
-    height: 70px;
-    background-color: blue;
+.conteudo h1 {
+    padding-top: 50px;
 }
+
+/* CARD DOS TRABALHOS*/
+
+.geralcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.geralcard2 {
+    position: absolute;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+}
+
+.geralcard h2,
+.geralcard2 h2 {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* y= cima x= lateral esquerda, esse transforme é para o card subir para cima */
+    cursor: pointer;
+}
+
+.card p {
+    color: #a2a5b4;
+    font-size: 17px;
+    text-align: center;
+}
+
+.imagem1 img {
+    float: left;
+    max-width: 64px;
+    width: 120px;
+    max-height: 64px;
+}
+
+/* use essas cores lateraes de acordo com a cor do anuncio da empresa
+  da um charme kkkkk */
+.blue {
+    border-left: 3px solid #4895ff;
+}
+
+.green {
+    border-left: 3px solid #08ff0c;
+}
+
+.red {
+    border-left: 3px solid #b3404a;
+}
+
+.yeloow {
+    border-left: 3px solid #fff708;
+}
+
+.pink {
+    border-left: 3px solid #a640b3;
+}
+
+.orange {
+    border-left: 3px solid orange;
+}
+
+/* mesma coisa - veja esse empresa < quando tiver anunciou ela vai mudar tbm */
+.card p:hover {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+

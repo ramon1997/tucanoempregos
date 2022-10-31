@@ -1,0 +1,66 @@
+.menu strong,
+.menu h4,
+.menu h3 {
+    display: inline;
+    cursor: pointer;
+    color: rgb(201, 191, 176);
+    font-size: 12pt;
+    width: 120px;
+    padding-top: 50px;
+
+}
+
+.menu strong:hover,
+.menu h3:hover,
+.menu h4:hover {
+    color: rgb(112, 147, 252);
+}
+
+/* rodape*/
+
+footer strong,
+footer h4,
+footer h3 {
+    display: inline;
+    cursor: pointer;
+    color: rgb(201, 191, 176);
+    font-size: 12pt;
+}
+
+footer {
+    width: 100%;
+    margin-top: 720px;
+    height: 90px;
+    background-color: rgb(135, 135, 185);
+    position: absolute;
+}
+
+footer strong:hover,
+footer h3:hover,
+footer h4:hover {
+    color: rgb(112, 147, 252);
+}
+
+footer h6 {
+    padding-top: 50px;
+    padding-left: 1170px;
+    color: rgb(200, 191, 191)
+}
+
+.insta img {
+    margin-top: -33px;
+    margin-left: -100px;
+    position: absolute;
+}
+
+.face img {
+    margin-top: -33px;
+    margin-left: -40px;
+    position: absolute;
+}
+
+.twiter img {
+    margin-top: -33px;
+    margin-left: 20px;
+    position: absolute;
+}
