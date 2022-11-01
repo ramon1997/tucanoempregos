@@ -1,73 +1,43 @@
 div.menu {
     width: 100%;
     height: 70px;
-    background-color: rgb(135, 135, 185);
+    background-image: linear-gradient(to left, #940008, #b9000a);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.menu strong,
-.menu h4,
-.menu h3 {
-    display: inline;
-    cursor: pointer;
-    color: rgb(201, 191, 176);
-    font-size: 12pt;
-    width: 120px;
-    padding-top: 50px;
-
+h1{
+    color: white;
 }
 
-.menu strong:hover,
-.menu h3:hover,
-.menu h4:hover {
-    color: rgb(112, 147, 252);
+nav{
+   padding: 20px 10px 20px 10px;
 }
 
+nav:hover{
+    border: 3px #700b10 solid;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+    background-color: #b9000a;
+}
+
+nav a{
+    color: white;
+    margin-left: 15px;
+}
 /* rodape*/
 
-footer strong,
-footer h4,
-footer h3 {
-    display: inline;
-    cursor: pointer;
-    color: rgb(201, 191, 176);
-    font-size: 12pt;
+footer h4{
+    color: white;
 }
-
 footer {
     width: 100%;
     margin-top: 720px;
     height: 90px;
-    background-color: rgb(135, 135, 185);
-    position: absolute;
-}
-
-footer strong:hover,
-footer h3:hover,
-footer h4:hover {
-    color: rgb(112, 147, 252);
-}
-
-footer h6 {
-    padding-top: 50px;
-    padding-left: 1170px;
-    color: rgb(200, 191, 191)
-}
-
-.insta img {
-    margin-top: -33px;
-    margin-left: -100px;
-    position: absolute;
-}
-
-.face img {
-    margin-top: -33px;
-    margin-left: -40px;
-    position: absolute;
-}
-
-.twiter img {
-    margin-top: -33px;
-    margin-left: 20px;
-    position: absolute;
+    background-image: linear-gradient(to left, #940008, #b9000a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
