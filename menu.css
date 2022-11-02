@@ -1,7 +1,7 @@
 div.menu {
     width: 100%;
     height: 70px;
-    background-image: linear-gradient(to left, #940008, #b9000a);
+    background-image: linear-gradient(to left,gray, black);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,15 +12,21 @@ h1{
     color: white;
 }
 
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav{
    padding: 20px 10px 20px 10px;
 }
 
 nav:hover{
-    border: 3px #700b10 solid;
+    border: 3px white solid;
     border-radius: 10px;
     transition: all 0.5s ease-out;
-    background-color: #b9000a;
+    background-color: #cac8b6;
 }
 
 nav a{
@@ -36,7 +42,7 @@ footer {
     width: 100%;
     margin-top: 720px;
     height: 90px;
-    background-image: linear-gradient(to left, #940008, #b9000a);
+    background-image: linear-gradient(to left,gray, black);
     display: flex;
     justify-content: center;
     align-items: center;
