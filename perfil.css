@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 div.meio{
     width: 20%;
@@ -25,7 +26,7 @@ div.titulo{
 }
 
 div.propagandas{
-    background-color: aqua;
+    border: 2px solid black;
     width: 30%;
     height: 600px;
 
@@ -33,4 +34,5 @@ div.propagandas{
 
 h3, h2{
     margin-top: 50px;
+    font-family: 'Cairo', sans-serif;
 }
