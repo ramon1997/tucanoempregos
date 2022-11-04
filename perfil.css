@@ -25,6 +25,11 @@ div.titulo{
     height: 50px;
 }
 
+div.titulo h1{
+    color: black;
+    margin-top: 20px;
+}
+
 div.propagandas{
     border: 2px solid black;
     width: 30%;
