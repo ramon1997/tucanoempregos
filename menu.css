@@ -24,6 +24,7 @@ div.logo {
 
 nav {
     padding: 25px 10px 25px 10px;
+    border-radius: 10px;
 }
 
 nav:hover {
@@ -44,12 +45,25 @@ footer h4 {
     font-family: 'Raleway', sans-serif;
 }
 
+div.redes{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.redes img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
 footer {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 220px;
     height: 90px;
     background-image: linear-gradient(to left, gray, black);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
